@@ -1,6 +1,8 @@
 # AjaxHandler
 Handle AJAX requests anywhere in your PHP. Just add `ajaxRequest=true` (configurable in the class) to your GET, POST, PUT or DELETE request data. If it's not there, subsequent calls to AjaxHandler methods will not do anything, but a call to `error` or `success` will send the response and exit the script. If your framework requires post processing after your main scripts this is probably a problem and I'd be interested in any ideas for dealing with that. 
 
+Based on https://github.com/serkanyersen/AjaxHandler but stripped down and designed to be used anywhere in your code.
+
 ## Example
 ```php
 /* Get beers */
