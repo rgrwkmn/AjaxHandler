@@ -1,3 +1,9 @@
 {
-    "name": "rgrwkmn/ajaxhandler"
+    "name": "rgrwkmn/ajaxhandler",
+    "autoload": {
+        "psr-0": {
+            "AjaxHandler": "src/"
+        }
+    }
+}
 }
